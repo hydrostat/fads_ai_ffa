@@ -32,6 +32,15 @@ features  = lmom_l1, lmom_l2, lmom_l3, lmom_l4, lmom_t3, lmom_t4
 
 The model was trained using the 10K Monte Carlo experiment configuration and is intended for application to new annual-maximum samples.
 
+## Availability of the large model file
+
+The full model file `fads_ai_final_model.rds` is large and may not be stored directly in the GitHub repository.
+
+In the GitHub version, users should obtain this file from the archived Zenodo release and place it in:
+
+```text
+models/fads_ai_final_model.rds
+
 ## Feature columns
 
 The file:
