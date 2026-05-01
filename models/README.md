@@ -34,9 +34,12 @@ The model was trained using the 10K Monte Carlo experiment configuration and is 
 
 ## Availability of the large model file
 
-The full model file `fads_ai_final_model.rds` is large and may not be stored directly in the GitHub repository.
+The full model file `fads_ai_final_model.rds` is large and is not stored directly in the GitHub repository.
 
-In the GitHub version, users should obtain this file from the archived Zenodo release and place it in:
+Users should obtain this file from the archived Zenodo release:
+
+```text
+https://doi.org/10.5281/zenodo.19950473
 
 ```text
 models/fads_ai_final_model.rds

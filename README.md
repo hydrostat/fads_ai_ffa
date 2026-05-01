@@ -248,7 +248,11 @@ reproducibility.md
 
 ## Citation
 
-Citation information will be updated after the archived Zenodo release is created.
+Please cite the archived software release:
+
+```text
+Fernandes, W. (2026). FADS_AI: Machine-learning support for probability-distribution selection in flood frequency analysis (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19950473
+```
 
 ## License
 

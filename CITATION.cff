@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 title: "FADS_AI: Machine-learning support for probability-distribution selection in flood frequency analysis"
-message: "If you use this code, please cite the associated article and the archived software release."
+message: "If you use this code or the application-ready trained model, please cite the archived software release and the associated article when available."
 type: software
 
 authors:
-  - family-names: "Santos"
+  - family-names: "Fernandes"
     given-names: "Wilson"
     affiliation: "hydro_stat research group"
 
-abstract: "FADS_AI is a reproducible code base for machine-learning support in probability-distribution selection for flood frequency analysis. The repository contains the source code required to reproduce a Monte Carlo workflow involving candidate probability distributions, L-moment and LMRD descriptors, goodness-of-fit and information-criterion features, machine-learning training, validation-based model selection, and final held-out test evaluation."
+abstract: "FADS_AI is a reproducible code base and application-ready trained model for machine-learning support in probability-distribution selection for flood frequency analysis. The repository contains the source code required to reproduce a Monte Carlo workflow involving candidate probability distributions, L-moment and LMRD descriptors, goodness-of-fit and information-criterion features, machine-learning training, validation-based model selection, final held-out test evaluation, and an XGBoost application model based on classical L-moment descriptors."
 
 keywords:
   - flood frequency analysis
@@ -19,22 +19,25 @@ keywords:
   - goodness-of-fit
   - information criteria
   - machine learning
+  - XGBoost
   - extreme-value statistics
 
 license: MIT
 version: 1.0.0
-date-released: "TO_BE_COMPLETED"
+date-released: "2026-05-01"
 
-repository-code: "TO_BE_COMPLETED"
-url: "TO_BE_COMPLETED"
-doi: "TO_BE_ADDED_AFTER_ZENODO_RELEASE"
+repository-code: "https://github.com/hydrostat/fads_ai_ffa"
+url: "https://doi.org/10.5281/zenodo.19950473"
+doi: "10.5281/zenodo.19950473"
 
 preferred-citation:
-  type: article
-  title: "TO_BE_COMPLETED"
+  type: software
+  title: "FADS_AI: Machine-learning support for probability-distribution selection in flood frequency analysis"
   authors:
-    - family-names: "Santos"
+    - family-names: "Fernandes"
       given-names: "Wilson"
-  journal: "TO_BE_COMPLETED"
-  year: "TO_BE_COMPLETED"
-  doi: "TO_BE_COMPLETED"
+      affiliation: "hydro_stat research group"
+  year: 2026
+  version: "1.0.0"
+  doi: "10.5281/zenodo.19950473"
+  url: "https://doi.org/10.5281/zenodo.19950473"

@@ -156,8 +156,7 @@ representing the annual maximum value of the variable being analyzed.
 
 ## Versioned archive
 
-The GitHub repository is intended for code access, inspection, and usability.
+The complete versioned release, including the source code, fixed auxiliary input file, documentation, application example, model metadata, and application-ready trained model, is archived in Zenodo:
 
-A stable release corresponding to the manuscript should be archived in Zenodo or a similar repository and assigned a permanent DOI.
-
-The DOI should identify the exact version of the code, fixed auxiliary input file, application-ready trained model, and metadata used for the published article.
+```text
+https://doi.org/10.5281/zenodo.19950473
