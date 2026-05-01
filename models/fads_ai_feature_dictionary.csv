@@ -1,0 +1,7 @@
+feature_name,description,feature_group,required_for_application
+lmom_l1,First sample L-moment,classical_lmom,TRUE
+lmom_l2,Second sample L-moment,classical_lmom,TRUE
+lmom_l3,Third sample L-moment,classical_lmom,TRUE
+lmom_l4,Fourth sample L-moment,classical_lmom,TRUE
+lmom_t3,Sample L-skewness,classical_lmom,TRUE
+lmom_t4,Sample L-kurtosis,classical_lmom,TRUE

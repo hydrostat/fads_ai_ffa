@@ -1,0 +1,160 @@
+# ============================================================
+# FADS_AI .gitignore
+# ============================================================
+
+# ------------------------------------------------------------
+# R session and project files
+# ------------------------------------------------------------
+
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ------------------------------------------------------------
+# Temporary and backup files
+# ------------------------------------------------------------
+
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+*.tar.gz
+*.gz
+*.aux
+*.out
+*.toc
+
+# ------------------------------------------------------------
+# Operating-system files
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------
+# Local/private files
+# ------------------------------------------------------------
+
+local_config.R
+private_notes/
+manuscript_drafts/
+reviewer_response/
+internal_notes/
+scratch/
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# Generated outputs from the FADS_AI pipeline
+# ------------------------------------------------------------
+
+outputs/*
+!outputs/README.md
+
+# ------------------------------------------------------------
+# Generated simulation products
+# ------------------------------------------------------------
+
+data/simulation_metadata/
+data/generated/
+
+# ------------------------------------------------------------
+# Keep fixed input data required by the pipeline
+# ------------------------------------------------------------
+
+!data/
+!data/README.md
+!data/input_data/
+!data/input_data/README.md
+!data/input_data/poligonos_pre.rds
+!data/sample_inputs/
+!data/sample_inputs/README.md
+
+# ------------------------------------------------------------
+# Model files
+# ------------------------------------------------------------
+
+# The full application-ready model is large and should be archived
+# in Zenodo rather than committed to GitHub with regular Git.
+models/fads_ai_final_model.rds
+
+# Ignore generated or temporary model artifacts
+models/tmp/
+models/generated/
+models/intermediate/
+models/*.RData
+models/*.rda
+models/*.parquet
+models/*.qs
+models/*.fst
+
+# Keep lightweight model metadata in GitHub
+!models/README.md
+!models/fads_ai_feature_columns.rds
+!models/fads_ai_model_metadata.json
+!models/fads_ai_feature_dictionary.csv
+!models/fads_ai_candidate_distributions.csv
+
+# ------------------------------------------------------------
+# Generated manuscript tables and figures
+# ------------------------------------------------------------
+
+paper_outputs/tables/*.csv
+paper_outputs/tables/*.xlsx
+paper_outputs/tables/*.docx
+paper_outputs/tables/*.tex
+paper_outputs/figures/*.png
+paper_outputs/figures/*.jpg
+paper_outputs/figures/*.jpeg
+paper_outputs/figures/*.tif
+paper_outputs/figures/*.tiff
+paper_outputs/figures/*.pdf
+paper_outputs/figures/*.svg
+paper_outputs/quantile_consequence/*.csv
+paper_outputs/quantile_consequence/*.xlsx
+paper_outputs/quantile_consequence/*.parquet
+paper_outputs/quantile_consequence/*.rds
+
+# ------------------------------------------------------------
+# Generated audit/check outputs
+# ------------------------------------------------------------
+
+tests/function_usage_audit/*.csv
+tests/integrity_check/*.csv
+
+# ------------------------------------------------------------
+# Large or intermediate parquet/chunk/shard files
+# ------------------------------------------------------------
+
+*.parquet.tmp*
+*_shards/
+*_chunks/
+*_combine_batches/
+
+# ------------------------------------------------------------
+# Do not ignore source scripts
+# ------------------------------------------------------------
+
+!R/*.R
+!scripts/*.R
+!scripts/supplementary_analysis/*.R
+!paper_outputs/tables/scripts/*.R
+!paper_outputs/figures/scripts/*.R
+!paper_outputs/quantile_consequence/scripts/*.R
+!examples/*.R
+!tests/*.R
+
+# ------------------------------------------------------------
+# Keep repository documentation
+# ------------------------------------------------------------
+
+!README.md
+!LICENSE
+!CITATION.cff
+!NEWS.md
+!data-availability.md
+!reproducibility.md
+!file_inventory_public.csv

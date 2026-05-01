@@ -1,0 +1,37 @@
+# station_code: 00000000
+# station_name: Example station
+# variable: annual maximum value
+# unit: arbitrary unit
+# country: Example country
+# notes: Synthetic example data for demonstrating the FADS_AI application workflow
+year,value
+1981,421.3
+1982,358.7
+1983,512.4
+1984,476.9
+1985,389.2
+1986,602.5
+1987,445.8
+1988,531.6
+1989,498.1
+1990,650.7
+1991,372.4
+1992,415.9
+1993,563.2
+1994,488.6
+1995,704.1
+1996,459.5
+1997,526.3
+1998,617.8
+1999,392.6
+2000,548.9
+2001,675.4
+2002,431.8
+2003,589.7
+2004,623.5
+2005,471.2
+2006,733.6
+2007,508.4
+2008,556.1
+2009,682.9
+2010,497.5

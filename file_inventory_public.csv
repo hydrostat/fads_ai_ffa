@@ -1,0 +1,22 @@
+file,classification,public_location,notes
+fun_bayes.R,publish_core,R/,Helper function
+fun_distributions.R,publish_core,R/,Helper function
+fun_gof.R,publish_core,R/,Helper function
+fun_gof_chunk.R,publish_core,R/,Helper function
+fun_io.R,publish_core,R/,Helper function
+fun_lmom.R,publish_core,R/,Helper function
+fun_lmrd.R,publish_core,R/,Helper function
+fun_lmrd_preprocess.R,publish_core,R/,Helper function
+fun_ml.R,publish_core,R/,Helper function
+fun_pdf.R,publish_core,R/,Helper function
+000_config.R,publish_core,scripts/,Configuration
+001_create_project_structure.R,publish_core,scripts/,Project structure
+010_simulate_samples.R,publish_core,scripts/,Simulation stage
+020_extract_features.R,publish_core,scripts/,Feature extraction
+021_extract_gof_features.R,publish_core,scripts/,GOF and IC extraction
+022_combine_gof_chunks.R,publish_core,scripts/,GOF chunk combination
+030_build_datasets.R,publish_core,scripts/,Dataset construction
+040_train_models.R,publish_core,scripts/,Model training
+050_evaluate_models.R,publish_core,scripts/,Final evaluation
+900_run_full_pipeline.R,publish_core,scripts/,Full pipeline runner
+poligonos_pre.rds,publish_core_input,data/input_data/,Fixed auxiliary LMRD input

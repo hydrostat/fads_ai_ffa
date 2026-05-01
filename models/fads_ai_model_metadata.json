@@ -1,0 +1,14 @@
+{
+  "model_name": "FADS_AI final application model",
+  "model_version": "1.0.0",
+  "scenario": "classical",
+  "algorithm": "xgb",
+  "candidate_distributions": ["GEV", "GPA", "PE3", "LN2", "LN3", "GUM"],
+  "feature_columns": ["lmom_l1", "lmom_l2", "lmom_l3", "lmom_l4", "lmom_t3", "lmom_t4"],
+  "training_source": "10K Monte Carlo experiment",
+  "application_features": "sample L-moment descriptors only",
+  "output_type": "predicted class and class probabilities when available",
+  "intended_use": "Decision support for probability-distribution selection in Flood Frequency Analysis",
+  "limitations": "Predictions should be interpreted as model-based support for candidate families, not as proof of the true generating distribution.",
+  "created_at": "2026-05-01 00:44:09.093247"
+}
